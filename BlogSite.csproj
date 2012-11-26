@@ -54,6 +54,8 @@
     <Content Include="Global.asax" />
     <Content Include="Styles\base.css" />
     <Content Include="Styles\reset.css" />
+    <Content Include="Styles\technicalNotes.css" />
+    <Content Include="TechnicalNotes.htm" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

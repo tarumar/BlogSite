@@ -4,31 +4,95 @@
     <title>BlogSite</title>
     <link href="Styles/reset.css" rel="stylesheet" type="text/css" />
     <link href="Styles/base.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 </head>
 <body>
  <div id="wrapper">
-    <div id= "header"> 
+    <header> 
         <h1>BlogSite</h1>
-        <div id="navigation">
+        <nav>
             <ul>
-                <li><a href='#'>Technical Notes</a></li> 
+                <li><a href="TechnicalNotes.htm">Technical Notes</a></li> 
                 <li><a href='#'>Wild Walks</a></li>
                 <li><a href='#'>Movies</a></li>
                 <li><a href='#'>Books</a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div id="main">
-        <div id="leftColumn"></div>
-        <p> column1 </p>
-        <div id="centerColumn"></div>
-        <p> column2 </p>
-        <div id="rightColumn"></div>
-        <p> column3 </p>
+        <div id="technicalNotes" class="subjectHolder">
+		    <h1>Technical Notes</h1>
+            <article>
+            <h2><a href="#">Get vs Post</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+            <article>
+            <h2><a href="#">Reverse Proxy</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+            <article>
+            <h2><a href="#">ETags</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+        <article>
+            <h2><a href="#">ETags</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+        <article>
+            <h2><a href="#">ETags</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+        <article>
+            <h2><a href="#">ETags</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+        </div>
+        <div id="wildWalks" class="subjectHolder">
+		    <h1>Wild Walks</h1>	
+            
+            <article>
+            <h2><a href="#">Royal National Park</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+            <article>
+            <h2><a href="#">Gear Reviews</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>	
+            <article>
+            <h2><a href="#">Backpack fitting guide</a></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            </p>
+        </article>
+        	
+	    </div>
+        <div id="movies" class="subjectHolder">
+		    <h1>Movies</h1>	
+	    </div>
+	    <div id="books" class="subjectHolder">
+		    <h1>Books</h1>	
+	    </div>
     </div>
-    <div id="footer">
+    <footer>
     <p> Where is my footer?</p>
-    </div>
+    </footer>
  </div>
 </body>
 </html>
